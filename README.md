@@ -3,7 +3,7 @@
 A Lua script for [mpv](https://mpv.io) that automatically downloads English subtitles using [Subliminal](https://github.com/Diaoul/subliminal).
 
 > **Original repository:** https://github.com/davidde/mpv-autosub  
-> I didn't write the original code, nor do I claim to have written it. All credit goes to the owner of the original repository, **davidde**. I only made a few tweaks and code optimizations, [which are listed below](#changes-ive-made-to-daviddes-version).
+> I didn't write the original code, nor do I claim to have written it. All credit goes to the owner of the original repository, **davidde**. I only made a few tweaks and code optimizations, [which are listed below](#changes-ive-made-to-daviddes-version)
 
 | SEARCH | SUCCESS |
 |--------|---------|
