@@ -3,6 +3,10 @@ A Lua script for [mpv](https://mpv.io) that automatically downloads English subt
 
 original repo credit : https://github.com/davidde/mpv-autosub
 
+| SEARCH | SUCCESS |
+|--------|---------|
+| <img src="https://github.com/user-attachments/assets/f8ca03a5-47df-409f-a0b6-4a499cc962c7" width="450"> | <img src="https://github.com/user-attachments/assets/32acc6b4-cf50-4720-a609-57beb5eb39dd" width="450"> |
+
 ## Features
 
 - Automatically downloads English subtitles.
@@ -17,6 +21,7 @@ original repo credit : https://github.com/davidde/mpv-autosub
 - Subliminal CLI -> pip install subliminal
 
 # Changes ive made from davidde's version
+
 
 - Replaced synchronous `utils.subprocess()` with `mp.command_native_async()` for **non-blocking subtitle downloads**.
 - Improved variable scope by using **local variables** instead of globals.
