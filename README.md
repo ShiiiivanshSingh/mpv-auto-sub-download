@@ -35,7 +35,7 @@ Set the path to the Subliminal executable in `autosub.lua`:
 -- macOS/Linux: which subliminal
 -- Windows: where subliminal
 
-local subliminal = "/Users/sh1vansh/python-envs/subs/bin/subliminal"
+local subliminal = "/Users/YOUR_USERNAME/python-envs/subs/bin/subliminal"
 ```
 
 **Common paths**
