@@ -15,3 +15,14 @@ original repo credit : https://github.com/davidde/mpv-autosub
 
 - [mpv](https://mpv.io)
 - Subliminal CLI -> pip install subliminal
+
+# Changes ive made from davidde's version
+
+- Replaced synchronous `utils.subprocess()` with `mp.command_native_async()` for **non-blocking subtitle downloads**.
+- Improved variable scope by using **local variables** instead of globals.
+- Added **safer nil checks** to prevent runtime errors.
+- Simplified audio format detection using **lookup tables**.
+- Refactored functions for **better readability and maintainability**.
+- Simplified configuration by keeping **English as the default language**.
+- Improved logging with clearer status messages.
+- Cleaned up path and subtitle track handling.
