@@ -1,3 +1,14 @@
+-- =============================================================================
+-- SUBLIMINAL PATH CONFIGURATION
+-- Change this path to where Subliminal is installed on your system!
+--
+-- macOS:   "/Users/YOUR_USERNAME/.venv/bin/subliminal" or "/usr/local/bin/subliminal"
+-- Linux:   "/home/YOUR_USERNAME/.local/bin/subliminal" or "/usr/bin/subliminal"
+-- Windows: "C:/Python311/Scripts/subliminal.exe" (use forward slashes '/' or '\\')
+--
+-- TIP: Run 'which subliminal' (macOS/Linux) or 'where subliminal' (Windows)
+--      in your terminal/cmd to find your exact path.
+-- =============================================================================
 local subliminal = "/Users/sh1vansh/python-envs/subs/bin/subliminal"
 
 local languages = {
