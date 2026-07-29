@@ -9,7 +9,7 @@
 -- TIP: Run 'which subliminal' (macOS/Linux) or 'where subliminal' (Windows)
 --      in your terminal/cmd to find your exact path.
 -- =============================================================================
-local subliminal = "/Users/sh1vansh/python-envs/subs/bin/subliminal"
+local subliminal = "/Users/YOUR_USERNAME/python-envs/subs/bin/subliminal"
 
 local languages = {
     { 'English', 'en', 'eng' },
