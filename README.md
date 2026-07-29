@@ -20,7 +20,31 @@ A Lua script for [mpv](https://mpv.io) that automatically downloads English subt
 ## Prerequisites
 
 - [mpv](https://mpv.io)
-- Subliminal CLI (`pip install subliminal`)
+- Subliminal CLI
+  ```bash
+  pip install subliminal
+  ```
+
+## Configure Subliminal
+
+Set the path to the Subliminal executable in `autosub.lua`:
+
+```lua
+-- Path to the Subliminal executable.
+-- Find it with:
+-- macOS/Linux: which subliminal
+-- Windows: where subliminal
+
+local subliminal = "/Users/sh1vansh/python-envs/subs/bin/subliminal"
+```
+
+**Common paths**
+
+| Platform | Example |
+| --- | --- |
+| **macOS** | `/Users/USERNAME/.venv/bin/subliminal` |
+| **Linux** | `/home/USERNAME/.local/bin/subliminal` |
+| **Windows** | `C:/Python311/Scripts/subliminal.exe` |
 
 ## Changes I've Made to Davidde's Version
 
